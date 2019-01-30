@@ -3,6 +3,15 @@
 body {
     margin: 0;
 }
+@font-face {
+    font-family: 'Futura Book';
+    src: url('FuturaBookC.eot');
+    src: url('FuturaBookC.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBookC.woff') format('woff'),
+        url('FuturaBookC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 /*Menu*/
 
 /*Main*/
@@ -40,6 +49,7 @@ body {
 }
 
 p.head2_l {
+    font-family: 'Poiret One', cursive;
     font-weight: 500;
     font-size: 24px;
     text-align: center;
@@ -63,7 +73,9 @@ p.head2_l {
     font-weight: 500;
     margin-bottom: 1px;
 }
-
+.priceli_l img {
+    position: relative;
+}
 .priceli_l:nth-child(even) {
     background-color: #f5f5f6;
 }
@@ -106,6 +118,7 @@ button.pricebut_l {
 }
 
 p.head2 {
+    font-family: 'Poiret One', cursive;
     font-weight: 500;
     font-size: 24px;
     text-align: center;
@@ -129,7 +142,9 @@ p.head2 {
     font-weight: 500;
     margin-bottom: 1px;
 }
-
+.priceli img {
+    position: relative;
+}
 .priceli:nth-child(even) {
     background-color: #f5f5f6;
 }
@@ -174,6 +189,7 @@ button.pricebut {
 }
 
 p.head2_r {
+    font-family: 'Poiret One', cursive;
     font-weight: 500;
     font-size: 24px;
     text-align: center;
@@ -196,7 +212,9 @@ p.head2_r {
     font-weight: 500;
     margin-bottom: 1px;
 }
-
+.priceli_r img {
+    position: relative;
+}
 .priceli_r:nth-child(even) {
     background-color: #f5f5f6;
 }
