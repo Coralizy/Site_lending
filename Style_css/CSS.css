@@ -2,16 +2,37 @@
 
 body {
     margin: 0;
+    font-family: 'Futura Book';
+    font-size: 18px;
+    font-weight: 400;
+}
+h1,h2{
+    font-family: 'Futura Md BT';
+}
+@font-face {
+    font-family: 'Futura Book' ;
+    src: url(../fonts/Futura/FuturaDemiC.eot);
+    src: url(../fonts/Futura/FuturaDemiC.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/Futura/FuturaDemiC.woff) format('woff'),
+        url(../fonts/Futura/FuturaDemiC.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
 @font-face {
     font-family: 'Futura Book';
-    src: url('FuturaBookC.eot');
-    src: url('FuturaBookC.eot?#iefix') format('embedded-opentype'),
-        url('FuturaBookC.woff') format('woff'),
-        url('FuturaBookC.ttf') format('truetype');
+    src: url(../fonts/Futura/FuturaMediumC.eot);
+    src: url(../fonts/Futura/FuturaMediumC.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/Futura/FuturaMediumC.woff) format('woff'),
+        url(../fonts/Futura/FuturaMediumC.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+@font-face{
+    font-family: 'Futura Md BT';
+    src: url(../fonts/04042068.ttf) format('truetype');
+    
+}
+
 /*Menu*/
 
 /*Main*/
@@ -29,7 +50,7 @@ body {
     border: 1px solid #f5f5f6;
     border-radius: 4px;
     padding-top: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Futura Book';
     margin-left: 10%;
     margin-right: -5px;
 }
@@ -45,7 +66,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    font-family: 'Futura Md BT';
 }
 
 p.head2_l {
@@ -58,9 +79,9 @@ p.head2_l {
 
 .prise25_l {
     text-align: center;
-    font-size: 80px;
+    font-size: 70px;
     margin: 20px auto 30px;
-
+    font-family: 'Futura Md BT';
 }
 
 .priceul_l {
@@ -102,7 +123,7 @@ button.pricebut_l {
     border-radius: 4px;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
     padding-top: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Futura Book';
     z-index: 1;
 }
 
@@ -115,6 +136,7 @@ button.pricebut_l {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Futura Md BT';
 }
 
 p.head2 {
@@ -127,9 +149,9 @@ p.head2 {
 
 .prise25 {
     text-align: center;
-    font-size: 80px;
+    font-size: 70px;
     margin: 20px auto 30px;
-
+    font-family: 'Futura Md BT';
 }
 
 .priceul {
@@ -169,7 +191,7 @@ button.pricebut {
     border: 1px solid #f5f5f6;
     border-radius: 4px;
     padding-top: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Futura Book';
     margin-left: -5px;
     z-index: -1;
     position: relative;
@@ -186,6 +208,7 @@ button.pricebut {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Futura Md BT';
 }
 
 p.head2_r {
@@ -198,8 +221,9 @@ p.head2_r {
 
 .prise25_r {
     text-align: center;
-    font-size: 80px;
+    font-size: 70px;
     margin: 20px auto 30px;
+    font-family: 'Futura Md BT';
 }
 
 .priceul_r {
@@ -246,13 +270,14 @@ button.pricebut_r {
 h2{
     color: #3371a6;
     text-align: center;
-    font-family: Roboto;
     font-size: 35px;
     font-weight: 400;
     margin: 0 auto;
 }
 span.firstword{
     color: #ee8129;
+    font-family: 'Futura Book';
+    font-weight: normal;
 }
 .testi_left,.testi_right{
     display: inline-block;
@@ -272,8 +297,7 @@ img{
     width: 360px;
     position: relative;
     margin-left: 130px;
-    font-family: Roboto;
-    font-size: 14px;
+    font-size: 18px;
     padding: 15px;
 }
 .name{
