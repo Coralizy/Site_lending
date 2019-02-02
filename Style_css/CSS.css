@@ -1,7 +1,7 @@
 /*body*/
 
 body {
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Futura Book';
     font-size: 18px;
     font-weight: 400;
@@ -27,6 +27,15 @@ h1,h2{
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Futura Book';
+    src: url(../fonts/Futura/FuturaLightC.eot);
+    src: url(../fonts/Futura/FuturaLightC.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/Futura/FuturaLightC.woff) format('woff'),
+        url(../fonts/Futura/FuturaLightC.ttf) format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
 @font-face{
     font-family: 'Futura Md BT';
     src: url(../fonts/04042068.ttf) format('truetype');
@@ -34,14 +43,85 @@ h1,h2{
 }
 
 /*Menu*/
-
+img.logo,.nav{
+    display: flex;
+    justify-content: center;
+}
+li.itemmenu{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 2%;
+    
+}
+li.itemmenu a{
+    text-decoration: none;
+    color: #999999;
+}
+li.itemmenu a:hover{
+    border-bottom: 4px solid #3070a8;
+    color: #3070a8;
+    padding-bottom: 38px;
+    
+}
+ul.mainmenu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    white-space: nowrap;
+    
+}
+.header{
+    margin: 40px auto 40px 200px;
+}
 /*Main*/
+.main_display{
+    background-image: url(../images/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px;
+    color: white;
+    text-align: center;
+}
+p.uptext{
+    font-size: 40px;
+    font-weight: normal;
+}
+h1.mainzag{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+p.descrtext{
+    font-size: 22px;
+    font-style: italic;
+    letter-spacing: 0.03em;
+}
+button.mainbutton{
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 20px 60px;
+    margin-top: 20px;
+}
 
 /*Price*/
-
+.priserow{
+    margin: 50px;
+    
+}
 .price_l,.price,.price_r{
     display: inline-block;
-     margin-top: 5%;
+    
+    
+}
+h3.headrow {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 50px;
 }
 /*Left price*/
 .price_l {
@@ -51,7 +131,7 @@ h1,h2{
     border-radius: 4px;
     padding-top: 0;
     font-family: 'Futura Book';
-    margin-left: 10%;
+    margin-left: 14%;
     margin-right: -5px;
 }
 
@@ -91,7 +171,8 @@ p.head2_l {
 
 .priceli_l {
     padding: 9px 30px;
-    font-weight: 500;
+    font-weight: bold;
+    color: #999;
     margin-bottom: 1px;
 }
 .priceli_l img {
@@ -161,7 +242,8 @@ p.head2 {
 
 .priceli {
     padding: 9px 30px;
-    font-weight: 500;
+    font-weight: bold;
+    color: #999;
     margin-bottom: 1px;
 }
 .priceli img {
@@ -233,7 +315,8 @@ p.head2_r {
 
 .priceli_r {
     padding: 9px 30px;
-    font-weight: 500;
+    font-weight: bold;
+    color: #999;
     margin-bottom: 1px;
 }
 .priceli_r img {
@@ -284,20 +367,21 @@ span.firstword{
     margin-top: 50px;
 }
 .testi_left{
-    padding-left: 8%;
+    padding-left: 12%;
 }
 .testi_right{
-    padding-left: 40px;
+    padding-left: 30px;
 }
 img{
     position: absolute;
 }
 .testi_item{
     background-color: white;
-    width: 360px;
+    width: 340px;
     position: relative;
     margin-left: 130px;
     font-size: 18px;
+    font-weight: normal; 
     padding: 15px;
 }
 .name{
@@ -306,6 +390,7 @@ img{
     font-style: italic;
     border-bottom: 1px dotted #3371a6;
     margin-top: 0;
+    font-weight: bold;
 }
 span.status{
     float: right;
