@@ -73,7 +73,7 @@ ul.mainmenu{
     
 }
 .header{
-    margin: 40px auto 40px 200px;
+    margin: 40px auto 40px 180px;
 }
 /*Main*/
 .main_display{
@@ -106,10 +106,41 @@ button.mainbutton{
     padding: 20px 60px;
     margin-top: 20px;
 }
+/*Servises*/
+.servises{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.servis_l,.servis_c,.servis_r{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    
+
+}
+.serv_zag{
+    color: #3070a8;
+    font-size: 30px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.serv_img{
+    position: relative;
+}
+.servis_text{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7em;
+    color: #999;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 /*Price*/
 .priserow{
     margin: 50px;
+    text-align: center;
     
 }
 .price_l,.price,.price_r{
@@ -131,7 +162,6 @@ h3.headrow {
     border-radius: 4px;
     padding-top: 0;
     font-family: 'Futura Book';
-    margin-left: 14%;
     margin-right: -5px;
 }
 
@@ -367,7 +397,7 @@ span.firstword{
     margin-top: 50px;
 }
 .testi_left{
-    padding-left: 12%;
+    padding-left: 180px;
 }
 .testi_right{
     padding-left: 30px;
@@ -405,7 +435,6 @@ span.status{
     border-color: transparent white transparent transparent;
     position: absolute;
     margin-left: -42px;
-    
 }
 
 
