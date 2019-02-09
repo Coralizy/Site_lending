@@ -136,6 +136,58 @@ button.mainbutton{
     padding-left: 15px;
     padding-right: 15px;
 }
+/*middlerow*/
+.middlerow{
+    background-image: url(../images/Rectangle\ 14\ copy.png);
+    background-size: cover;
+    margin: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    }
+.middlerow_content{
+    text-align: left;
+    width: 48%;
+    margin-left: 180px;
+}
+.middlerow_zag {
+        color: #ee8129;
+        text-transform: uppercase;
+        font-size: 28px;
+        line-height: 1.7em;
+        font-weight: 600;
+        margin-left: 180px;
+}
+.middlerow_descr{
+    font-size: 24px;
+    font-style: italic;
+    color: white;
+}
+li{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 2.2em;
+    
+}
+
+.middle_one{
+    color: #999;
+    padding-bottom: 10px;
+}
+.middle_one::before{
+    content: "\25CF";
+    color: #999;
+    margin: 0 10px 0 -20px;
+}
+.middle_to{
+    color: #3070a8;
+    padding-bottom: 10px;
+}
+.middle_to::before {
+    content: "\25CF";
+    color: #3070a8;
+    margin: 0 10px 0 -20px;
+}
 
 /*Price*/
 .priserow{
