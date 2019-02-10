@@ -5,6 +5,7 @@ body {
     font-family: 'Futura Book';
     font-size: 18px;
     font-weight: 400;
+    overflow-x: hidden;
 }
 h1,h2{
     font-family: 'Futura Md BT';
@@ -62,7 +63,7 @@ li.itemmenu a{
 li.itemmenu a:hover{
     border-bottom: 4px solid #3070a8;
     color: #3070a8;
-    padding-bottom: 38px;
+    padding-bottom: 42px;
     
 }
 ul.mainmenu{
@@ -169,7 +170,6 @@ li{
     line-height: 2.2em;
     
 }
-
 .middle_one{
     color: #999;
     padding-bottom: 10px;
@@ -428,7 +428,6 @@ button.pricebut_r {
 .testimonial {
     background-image: url(https://i.ibb.co/q793k03/task2-back.jpg);
     background-size: cover;
-    margin: 50px 0;
     padding-top: 50px;
     padding-bottom: 70px;
 }
@@ -459,12 +458,12 @@ img{
 }
 .testi_item{
     background-color: white;
-    width: 340px;
+    width: 320px;
     position: relative;
     margin-left: 130px;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: normal; 
-    padding: 15px;
+    padding: 14px;
 }
 .name{
     color: #3371a6;
@@ -473,6 +472,7 @@ img{
     border-bottom: 1px dotted #3371a6;
     margin-top: 0;
     font-weight: bold;
+    font-size: 16px;
 }
 span.status{
     float: right;
@@ -488,5 +488,47 @@ span.status{
     position: absolute;
     margin-left: -42px;
 }
-
-
+/*Contacts*/
+.contact > div {
+    float: left;
+    width: 48%;
+    margin: 0; 
+    box-sizing: border-box;
+   
+}
+.contact_info{
+    padding: 50px 0 30px 180px;
+}
+.contact_map{
+    width: 40%;
+}
+img.cont_img{
+    padding-left: 30px; 
+} 
+.contact_text,.contact_textN{
+    padding-left: 50px;
+}
+.ico_socF,.ico_socT,.ico_socL {
+    padding-right: 20px;
+    position: relative;
+}
+/*Footer*/
+.footer{
+    clear: both; 
+    background-color: #3070a8;
+    text-align: center;
+    color: white
+}
+.copyright{
+    padding-top: 30px;
+    margin: 0;
+}
+.design{
+    padding-bottom: 30px;
+    margin: 0; 
+}
+.design a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
