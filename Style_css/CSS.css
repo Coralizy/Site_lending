@@ -515,7 +515,7 @@ img.cont_img{
 /*Footer*/
 .footer{
     clear: both; 
-    background-color: #3070a8;
+    background-color: #e9f2fa;
     text-align: center;
     color: white
 }
@@ -532,3 +532,33 @@ img.cont_img{
     color: black;
     font-weight: bold;
 }
+/*Portfolio*/
+.portfolio{
+    margin-top: 60px;
+    margin-bottom: 160px;
+}
+.port_head,.port_head2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+.port_head{
+    letter-spacing: 0.03em;
+}
+.port_head2{
+    text-align: center;
+    font-size: 15px;
+    color: #b2b3b3;
+    margin-bottom: 30px;
+}
+.port_img{
+    text-align: center;
+    
+}
+.portf,.portf1,.portf2,.portf3,.portf4,.portf5 {
+    display: inline-block;
+    padding: 15px 15px;
+    position: relative;
+}
+
+   
