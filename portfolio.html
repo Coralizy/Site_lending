@@ -21,10 +21,15 @@
             <img class="foto_port" src="/Foto_port/Layer 29.png">
             <div class="portf_cap">
                 <img class="cap" src="/Foto_port/BG.png">
-                <button class="zoom"><a href="#"><img src="/Foto_port/Iconz.png"></a></button>
+                <button class="zoom"><a href="#"><img id="zoo" src="/Foto_port/Iconz.png"></a></button>
                 <button class="link"><a href="#"><img src="/Foto_port/Icon.png"></a></button>
             </div>
         </div>
+        <script>
+            document.getElementById('zoo').onclick = function() {
+                document.getElementById('foto_zoom').style.display = 'block';
+            }
+        </script>
         <div class="portf1">
 <img class="foto_port" src="/Foto_port/Layer 31.png">
             <div class="portf_cap">
@@ -66,5 +71,14 @@
             </div>
         </div>
 </section>
+<div id="foto_zoom">
+    <button id="crosses"><a href="#"><div class="cross"></div></a></button>
+    <img class="foto_port_zoom" src="/Foto_port/Layer 37.png">
+</div>
+<script>
+    document.getElementById('crosses').onclick = function () {
+        document.getElementById('foto_zoom').style.display = 'none';
+    }
+</script>
 </body>
 </html>
